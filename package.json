@@ -1,0 +1,15 @@
+{
+  "name": "purely",
+  "version": "1.0.0",
+  "description": "purely beauty",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+  },
+  "author": "harish manikanta",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
